@@ -1,0 +1,169 @@
+
+:root {
+  background-color: #f5f5f5;
+}
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  font-family:  "Work Sans", sans-serif;
+}
+.main-content{
+  padding: 100px 150px;
+}
+
+
+
+/* home component */
+.home1{
+  background-image: url('./assets/imgs/home1.jpg');
+  padding-top: 200px;
+  padding-left: 150px;
+  height: 100%;
+  padding-bottom: 20%;
+}
+.home2{
+  background-image: url('./assets/imgs/home2.jpg');
+  padding-top: 200px;
+  padding-left: 150px;
+  height: 100%;
+  padding-bottom: 20%;
+}
+.home1 h1, .home2 h1{
+  font-size: 50px;
+  font-weight: 900;
+  color: black;
+}
+.home1 button, .home2 button{
+padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+/* about component */
+.flex-content{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.about-card{
+  flex-direction: column;
+  text-align: center;
+  font-size: large;
+  background-color: white;
+  border-bottom: 5px solid;
+  width: 190px;
+  box-shadow: 0 0 56px -8px #00002b;
+  padding: 20px;
+}
+/* skills component */
+
+.skills-comp p{
+  padding: 30px 0;
+}
+.progress{
+
+  height: 10px;
+  overflow: visible;
+  color:#f5f5f5;
+  margin-bottom: 30px;
+}
+.text-bg-danger{
+  width : 80%;
+}
+.text-bg-secondary{
+  width: 90%;
+}
+.text-bg-info{
+  width: 50%;
+}
+.text-bg-warning{
+  width: 75%;
+}
+.text-bg-primary{
+  width: 60%;
+}
+.text-bg-success{
+  width: 70%;
+}
+/* experience component */
+.exp-p{
+background-color: #f5f5f5;
+padding: 25px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.exp i{
+background-color: #2c98f0;
+border-radius: 50%;
+padding: 15px;
+font-size: 22px;
+border: 5px solid #f5f5f5;
+color: white;
+margin-top: 20px;
+}
+
+/* work component */
+
+.x{
+  background-color: #f5f5f5;
+  height: 100%;
+}
+.x img{
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.x p span{
+  color: blue;
+}
+.active{
+  color: blue;
+}
+.nav-link{
+  color: black;
+  text-decoration: none;
+  font-size: small;
+  line-height: 0.3 em;
+}
+
+@media (prefers-color-scheme: light) {
+
+}
+.gallery img{
+  width: 370px;
+  height: 400px;
+  margin-bottom: 30px;
+}
+.card{
+  color: white;
+  border: none;
+  background-color:cornflowerblue;
+  margin-bottom: 30px;
+  width: 370px;
+  height: 400px;
+  border-radius: 0%;
+  display: none;
+}
+.icons{
+  padding-top: 40%;
+}
+.card .icons i{
+  background-color: beige;
+  border-radius: 5px;
+  padding: 5px;
+  color: blue;
+  margin: 5px;
+  text-decoration: underline;
+  font-size: x-small;
+ font-weight: 100;
+}
